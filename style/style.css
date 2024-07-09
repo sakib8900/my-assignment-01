@@ -1,11 +1,108 @@
 /* font style */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-/* box */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+body {
     font-family: "Azeret Mono", monospace;
+}
+
+/* 1st banner css style */
+header .banner-1{
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    max-width: 14440px;
+    height: 652px;
+    color: rgb(13, 19, 33);
+    padding: 20px;
+    text-align: center;
+}
+header .banner-1 .banner-image{
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 50%;
+    width: 240px;
+    height: 240px;
+}
+header .banner-1 h1{
+    margin-top: 32px;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+header .banner-1 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+header .banner-1 button{
+    background-color: black;
+    border-radius: 8px;
+    width: 208px;
+    height: 66px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+}
+/* 2nd banner css style */
+header .banner-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 74px;
+    height: 140px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    /* border: 2px solid red; */
+}
+/* header .banner-2 .text -content{
+    flex: 1;
+    max-width: 50%;
+    padding-right: 20px;
+} */
+header .banner-2 h2{
+    /* margin-top: 80px; */
+    font-size: 32px;
+    font-weight: 800px;
+    line-height: 37px;
+    /* text-align: center; */
+}
+header .banner-2 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+/* banner-3 */
+header .banner-3{
+    justify-content: space-around;
+    margin-top: 74px;
+    height: 850px;
+    padding: 20px;
+    /* text-align: center; */
+    /* position: relative; */
+    border: 2px solid red;
+}
+header .banner-3 .image-with-text-1{
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid red;
+    align-items: left;
+}
+header .banner-3 .image-with-text-2{
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid red;
+    align-items: left;
+}
+header .banner-3 .image-with-text-3{
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid red;
+    align-items: left;
 }
