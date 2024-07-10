@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    margin-bottom: 40px;
 }
 body {
     font-family: "Azeret Mono", monospace;
@@ -50,59 +51,117 @@ header .banner-1 button{
     text-align: center;
 }
 /* 2nd banner css style */
-header .banner-2{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 74px;
-    height: 140px;
+.banner-2 {
+    max-width: 1140px;
+    height: 1395px;
+    margin-top: 100px;
     padding: 20px;
     text-align: center;
-    position: relative;
     /* border: 2px solid red; */
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
 }
-/* header .banner-2 .text -content{
-    flex: 1;
-    max-width: 50%;
-    padding-right: 20px;
-} */
-header .banner-2 h2{
-    /* margin-top: 80px; */
-    font-size: 32px;
-    font-weight: 800px;
-    line-height: 37px;
-    /* text-align: center; */
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
-header .banner-2 p{
-    color: rgb(13, 19, 33);
+
+p {
     font-size: 16px;
-    margin-top: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
-/* banner-3 */
-header .banner-3{
-    justify-content: space-around;
-    margin-top: 74px;
-    height: 850px;
+/* image wwith banner style */
+.banner-2-2nd{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 80px 97px;
+}
+
+.text-with-image {
+    max-width: 946px;
+    height: 360px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    /* border: 2px solid red; */
     padding: 20px;
-    /* text-align: center; */
-    /* position: relative; */
-    border: 2px solid red;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
 }
-header .banner-3 .image-with-text-1{
-    display: flex;
-    margin-top: 20px;
-    border: 2px solid red;
-    align-items: left;
+
+.text-with-image img {
+    margin-top: 48px;
+    max-width: 259.56px;
+    height: 217.01;
+    margin-right: 20px;
 }
-header .banner-3 .image-with-text-2{
-    display: flex;
-    margin-top: 20px;
-    border: 2px solid red;
+
+/* .content .image-2 img{
     align-items: left;
+} */
+.text {
+    margin-top: 48px;
+    text-align: left;
 }
-header .banner-3 .image-with-text-3{
-    display: flex;
-    margin-top: 20px;
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    margin-top: 16px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 32px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* My Inspriration css style */
+.banner-3{   
+    max-width: 1140px;
+    height: 777px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
     border: 2px solid red;
-    align-items: left;
+    margin: 0 auto; 
+}
+/* My next target css style */
+.banner-4{
+    max-width: 1140px;
+    height: 443px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid red;
+    margin: 0 auto; 
+}
+/* I need suppot css style */
+.banner-5{
+    max-width: 1140px;
+    height: 313px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid red;
+    margin: 0 auto; 
+}
+/* fotter */
+.information{
+    max-width: 1140px;
+    height: 100px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid red;
+    margin: 0 auto; 
 }
