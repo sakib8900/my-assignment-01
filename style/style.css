@@ -118,7 +118,7 @@ p {
 
 button {
     margin-top: 32px;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     background-color: white;
     color: black;
     border: 2px solid black;
@@ -132,36 +132,126 @@ button {
     margin-top: 100px;
     padding: 20px;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto; 
+}
+.banner-3 video{
+    position: static;
+    width: 1034px;
+    height: 550px;
+    margin: 10px 0px;
 }
 /* My next target css style */
 .banner-4{
     max-width: 1140px;
     height: 443px;
-    margin-top: 100px;
-    padding: 20px;
+    /* margin-top: 100px; */
+    padding: 2px;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid blue; */
     margin: 0 auto; 
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 24px;
+}
+/* image-with-text-2 */
+.banner-4-2nd{
+    display: flex;
+    gap: 24px;
+    /* margin: 80px 97px; */
+}
+.backgruond-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.backgruond-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.backgruond-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.text-with-image-4{
+    max-width: 364px;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    align-items: left;
+    /* border: 2px solid red; */
+    padding: 20px;
+    border-radius: 8px;
+}
+.text-with-image-4 img {
+    max-width: 56px;
+    height: 56px;
+}
+.text-4 {
+    text-align: left;
+}
+.text-4 h2 {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.text-4 p {
+    margin-top: 16px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.text-4 .btn{
+    color: black;
+    margin-top: 24px;
 }
 /* I need suppot css style */
 .banner-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
     max-width: 1140px;
     height: 313px;
+    margin: 20px auto; 
     margin-top: 100px;
-    padding: 20px;
+    border-radius: 16px;
+    /* border: 2px solid red; */
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../assets/handshake.jpg');
+}
+.banner-text{
+    margin-top: 64px;
+    color: white;
     text-align: center;
-    border: 2px solid red;
-    margin: 0 auto; 
+}
+.feedback{
+    width: 548px;
+    height: 57px;
+    padding-left: 20px;
+}
+button{
+    width: 120px;
+    height: 57px;
+    text-align: center;
+    font-size: 20px;
 }
 /* fotter */
 .information{
-    max-width: 1140px;
+    display: flex;
+    max-width: 1440px;
     height: 100px;
     margin-top: 100px;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid red;
+    padding: 30px;
+    padding-left: 150px;
+    /* padding-right: 0px; */
+    text-align: left;
+    /* border: 2px solid red; */
     margin: 0 auto; 
+    gap: 650px;
+}
+.contact-info img{
+    align-items: flex-end;
 }
